@@ -115,10 +115,10 @@ The `AccelerationTile` class extends the game's functionality by introducing a n
 
 For any inquiries or feedback, please contact:
 
-- **Name**: Your Name
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+- **Name**: Shaun Lim
+- **Email**: shaunzlim0123@gmail.com  
+- **LinkedIn**: https://www.linkedin.com/in/shaun-lim-a2848928a/
+- **GitHub**: [[Your GitHub Profile](https://github.com/yourusername)](https://github.com/shaunzlim0123)
 
 ## License
 
