@@ -11,6 +11,9 @@ Welcome to the **Inkball Game** repository! This project is a recreation and ext
   - [Extension: AccelerationTile](#extension-accelerationtile)
 - [Design Principles](#design-principles)
 - [Installation and Setup](#installation-and-setup)
+  - [Prerequisites](#prerequisites)
+  - [Steps](#steps)
+  - [Notes](#notes)
 - [How to Play](#how-to-play)
 - [Future Improvements](#future-improvements)
 - [Contact Information](#contact-information)
@@ -23,7 +26,7 @@ The Inkball Game is a puzzle game where players guide balls into holes of matchi
 ## Features
 
 - **Interactive Gameplay**: Draw lines to guide balls into their respective holes.
-- **Dynamic Obstacles**: Walls, tiles, and acceleration tiles alter the movement of balls.
+- **Dynamic Components**: Walls, lines, and acceleration tiles alter the movement of balls.
 - **Level Management**: Progress through multiple levels with increasing difficulty.
 - **Scoring System**: Earn points based on performance and remaining time.
 - **Visual Effects**: Smooth animations and rendering of game elements.
@@ -52,13 +55,6 @@ The game's architecture is designed for clarity and extensibility, using object-
 
 The `AccelerationTile` class extends the game's functionality by introducing a new type of tile that applies directional acceleration to balls. Implemented as a subclass of `GameObject` and implementing the `Interactable` interface, it allows tiles to interact with the game's core mechanics.
 
-- **Properties**:
-  - `accelerationX` and `accelerationY`: Determine the acceleration applied to a ball's velocity.
-  - `image`: Used for rendering the tile.
-
-- **Methods**:
-  - `checkCollision(Ball ball)`: Detects when a ball enters the tile's area and applies acceleration, altering the ball's movement.
-
 ## Design Principles
 
 - **Object-Oriented Programming**: Utilizes interfaces and abstract classes to promote code reuse and flexibility.
@@ -66,6 +62,13 @@ The `AccelerationTile` class extends the game's functionality by introducing a n
 - **Extensibility**: Designed to easily incorporate new game elements and mechanics.
 
 ## Installation and Setup
+
+### Prerequisites
+
+- **Java Development Kit (JDK) 8**: Ensure that Java 8 is installed on your system. You can download it from [here](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html).
+- **Gradle**: The project uses Gradle for build automation. Install Gradle by following the instructions [here](https://gradle.org/install/).
+
+### Steps
 
 1. **Clone the Repository**:
 
@@ -79,17 +82,57 @@ The `AccelerationTile` class extends the game's functionality by introducing a n
    cd inkball-game
    ```
 
-3. **Compile the Source Code**:
+3. **Build the Project with Gradle**:
 
    ```bash
-   javac -d bin src/*.java
+   gradle build
    ```
 
 4. **Run the Game**:
 
    ```bash
-   java -cp bin App
+   gradle run
    ```
+
+### Notes
+
+- **Set `JAVA_HOME`**: Ensure that your `JAVA_HOME` environment variable is set to the path of your Java 8 installation.
+
+  - On **Windows**:
+
+    ```cmd
+    set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_xx
+    ```
+
+  - On **macOS/Linux**:
+
+    ```bash
+    export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_xx.jdk/Contents/Home
+    ```
+
+- **Verify Java Version**: Check your Java version by running:
+
+  ```bash
+  java -version
+  ```
+
+  The output should indicate Java version 1.8.x.
+
+- **Gradle Wrapper (Optional)**: If you prefer not to install Gradle globally, you can use the Gradle Wrapper included in the project:
+
+  - **Build the Project**:
+
+    ```bash
+    ./gradlew build
+    ```
+
+  - **Run the Game**:
+
+    ```bash
+    ./gradlew run
+    ```
+
+- **Multiple Java Versions**: If you have multiple versions of Java installed, you may need to configure Gradle to use Java 8 specifically. You can do this by editing the `build.gradle` file or setting the `JAVA_HOME` as shown above.
 
 ## How to Play
 
@@ -110,20 +153,5 @@ The `AccelerationTile` class extends the game's functionality by introducing a n
 - **Enhanced Graphics**: Improve visual effects and animations.
 - **Power-Ups**: Introduce new game mechanics like power-ups or special abilities.
 - **Multiplayer Mode**: Implement a mode where players can compete or cooperate.
-
-## Contact Information
-
-For any inquiries or feedback, please contact:
-
-- **Name**: Shaun Lim
-- **Email**: shaunzlim0123@gmail.com  
-- **LinkedIn**: https://www.linkedin.com/in/shaun-lim-a2848928a/
-- **GitHub**: [[Your GitHub Profile](https://github.com/yourusername)](https://github.com/shaunzlim0123)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 Thank you for checking out the Inkball Game! Your feedback and contributions are welcome.
