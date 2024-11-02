@@ -1,6 +1,6 @@
 # Inkball Game
 
-Welcome to the **Inkball Game** repository! This project is a recreation and extension of the classic Inkball game, developed as a portfolio piece to showcase object-oriented design principles, modular architecture, and clean code practices.
+Welcome to the **Inkball Game** repository! This project is a recreation and extension of the classic Inkball game to showcase object-oriented design principles, modular architecture, and clean code practices.
 
 ## Table of Contents
 
