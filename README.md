@@ -27,7 +27,7 @@ To give you a visual overview of the game, here are snapshots of the game state 
 
 - **Level 1**: Introduction to basic mechanics with minimal obstacles.
   
-  ![Level 1](images/level1.png)
+  ![Level 1](images/inkball_level1.png)
 
 - **Level 2**: Increased complexity with the introduction of walls and more challenging paths.
   
