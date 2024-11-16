@@ -38,9 +38,7 @@ To give you a visual overview of the game, here are snapshots of the game state 
 - **Level 3**: Advanced gameplay featuring acceleration tiles and intricate layouts.
   
   <img src="images/inkball_level3.png" alt="Level 1" width="400">
-
-
-*Note: Replace the `images/levelX.png` paths with the actual paths where the images are stored in your repository.*
+  
 
 ## Features
 
@@ -159,6 +157,9 @@ The `AccelerationTile` class extends the game's functionality by introducing a n
 - **Controls**:
   - **Draw Lines**: Click and drag the mouse to draw lines that direct balls.
   - **Erase Lines**: Right-click on lines to remove them.
+    
+  <img src="images/inkball_line.png" alt="Drawn Line Example" width="400">
+    
 - **Game Elements**:
   - **Walls**: Static obstacles that affect ball movement.
   - **Tiles**: Form the gameplay grid.
