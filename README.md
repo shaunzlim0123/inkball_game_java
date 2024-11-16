@@ -25,17 +25,17 @@ The Inkball Game is a puzzle game where players guide balls into holes of matchi
 
 To give you a visual overview of the game, here are snapshots of the game state across different levels:
 
-- **Level 1**: Introduction to basic mechanics with minimal obstacles.
+- **Level 1**: Easy gameplay
   
   <img src="images/inkball_level1.png" alt="Level 1" width="400">
 
 
-- **Level 2**: Increased complexity with the introduction of walls and more challenging paths.
+- **Level 2**: Intermediate gameplay
   
   <img src="images/inkball_level2.png" alt="Level 1" width="400">
 
 
-- **Level 3**: Advanced gameplay featuring acceleration tiles and intricate layouts.
+- **Level 3**: Advanced gameplay
   
   <img src="images/inkball_level3.png" alt="Level 1" width="400">
   
