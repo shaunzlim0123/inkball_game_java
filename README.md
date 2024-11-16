@@ -23,6 +23,22 @@ Welcome to the **Inkball Game** repository! This project is a recreation and ext
 
 The Inkball Game is a puzzle game where players guide balls into holes of matching colors by drawing lines and manipulating various game elements. This project demonstrates proficiency in Java programming, game development, and software design patterns, emphasizing code reuse, flexibility, and modularity.
 
+To give you a visual overview of the game, here are snapshots of the game state across different levels:
+
+- **Level 1**: Introduction to basic mechanics with minimal obstacles.
+  
+  ![Level 1](images/level1.png)
+
+- **Level 2**: Increased complexity with the introduction of walls and more challenging paths.
+  
+  ![Level 2](images/level2.png)
+
+- **Level 3**: Advanced gameplay featuring acceleration tiles and intricate layouts.
+  
+  ![Level 3](images/level3.png)
+
+*Note: Replace the `images/levelX.png` paths with the actual paths where the images are stored in your repository.*
+
 ## Features
 
 - **Interactive Gameplay**: Draw lines to guide balls into their respective holes.
