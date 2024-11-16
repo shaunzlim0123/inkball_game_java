@@ -159,6 +159,7 @@ The `AccelerationTile` class extends the game's functionality by introducing a n
   - **Erase Lines**: Right-click on lines to remove them.
     
   <img src="images/inkball_line.png" alt="Drawn Line Example" width="400">
+
     
 - **Game Elements**:
   - **Walls**: Static obstacles that affect ball movement.
