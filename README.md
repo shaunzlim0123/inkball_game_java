@@ -32,11 +32,13 @@ To give you a visual overview of the game, here are snapshots of the game state 
 
 - **Level 2**: Increased complexity with the introduction of walls and more challenging paths.
   
-  ![Level 2](images/level2.png)
+  <img src="images/inkball_level2.png" alt="Level 1" width="400">
+
 
 - **Level 3**: Advanced gameplay featuring acceleration tiles and intricate layouts.
   
-  ![Level 3](images/level3.png)
+  <img src="images/inkball_level3.png" alt="Level 1" width="400">
+
 
 *Note: Replace the `images/levelX.png` paths with the actual paths where the images are stored in your repository.*
 
