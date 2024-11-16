@@ -155,18 +155,18 @@ The `AccelerationTile` class extends the game's functionality by introducing a n
 
 - **Objective**: Guide balls into holes of the same color.
 - **Controls**:
-  - **Draw Lines**: Click and drag the mouse to draw lines that direct balls.
+  - **Draw Lines**: Click and drag the mouse to draw lines that direct balls. Here's an example of a drawn line in action:
+    
+    <img src="images/inkball_line.png" alt="Drawn Line Example" width="400">
+    
   - **Erase Lines**: Right-click on lines to remove them.
-    
-  <img src="images/inkball_line.png" alt="Drawn Line Example" width="400">
-
-    
 - **Game Elements**:
   - **Walls**: Static obstacles that affect ball movement.
   - **Tiles**: Form the gameplay grid.
   - **Acceleration Tiles**: Change the velocity of balls.
   - **Spawners**: Generate balls at specific locations.
   - **Holes**: Capture balls of matching colors.
+
 
 ## Future Improvements
 
